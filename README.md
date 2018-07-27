@@ -14,6 +14,9 @@ external dependencies (other than a recent version of *Mathematica*). Just
 download and evaluate `ResistorBuilder.wl`, and ResistorBuilder should appear
 as a `Manipulate` window at the bottom of the package window.
 
-# Examples
-![ResistorBuilder example 1](https://user-images.githubusercontent.com/4504054/43251015-a61d114c-9073-11e8-845a-4c12c9655e47.png)
-![ResistorBuilder example 2](https://user-images.githubusercontent.com/4504054/43251016-a6310440-9073-11e8-9a03-81086c7241ca.png)
+# Usage Examples
+* Move the slider or enter a number in the text input field (between 100 and 1000) to change the target resistance.
+* All resistor circuits having a combined value within ±0.3% of the target resistance are displayed underneath.
+* Exact resistance values are displayed to the right of the corresponding circuits. Sometimes, there will be a circuit that exactly matches the target resistance; other times, they might all be approximate.
+
+![ResistorBuilder examples](https://user-images.githubusercontent.com/4504054/43305711-9a00fa1c-912d-11e8-861b-239f15f22da4.png)
